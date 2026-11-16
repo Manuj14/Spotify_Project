@@ -9,9 +9,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "",
+						"value": "@pipeline().parameters.loop_input",
 						"type": "Expression"
 					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "AutoSQLtoLake",
@@ -286,7 +287,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@{item().table}_cdc",
+														"type": "Expression"
+													},
 													"file": "empty.json"
 												}
 											}

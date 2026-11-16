@@ -1,0 +1,15 @@
+{
+	"name": "thirdprojectdf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db4e47ed-85ac-4fdc-9991-69a328c047af",
+		"tenantId": "59d79898-e611-40a9-9736-8f278b8b1c5a"
+	}
+}

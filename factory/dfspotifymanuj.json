@@ -1,0 +1,16 @@
+{
+	"name": "dfspotifymanuj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5cc3d387-6de3-4ee2-9ef1-41c280513b23",
+		"tenantId": "35dcf895-b9ba-4190-8d24-132fd532be63"
+	}
+}

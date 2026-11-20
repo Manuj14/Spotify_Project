@@ -1,0 +1,12 @@
+resources:
+  pipelines:
+    pipeline_dlt:
+      name: DLT
+      libraries:
+        - glob:
+            include: /Workspace/Users/manujmalhotra1432_gmail.com#ext#@manujmalhotra1432gmail.onmicrosoft.com/spotifyazureproject/spotify_dab/src/DLT/transformations/**
+      schema: gold
+      photon: true
+      catalog: spotify_cata
+      serverless: true
+      root_path: /Workspace/Users/manujmalhotra1432_gmail.com#ext#@manujmalhotra1432gmail.onmicrosoft.com/spotifyazureproject/spotify_dab/src/DLT

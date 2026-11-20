@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "spotify_dab",
+      "target": "dev",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/manujmalhotra1432_gmail.com#ext#@manujmalhotra1432gmail.onmicrosoft.com/.bundle/spotify_dab/dev/files"
+    },
+    "resources": {},
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {
+    "git_folder_path": "/Workspace/Users/manujmalhotra1432_gmail.com#ext#@manujmalhotra1432gmail.onmicrosoft.com/spotifyazureproject/spotify_dab"
+  }
+}
